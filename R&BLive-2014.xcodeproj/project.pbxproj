@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C1DA98218C3D12E00F2166C /* GuestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1DA98118C3D12E00F2166C /* GuestViewController.m */; };
+		8C1FEEE518C3DD99004D31AB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1FEEE418C3DD98004D31AB /* MessageUI.framework */; };
+		8C582AB118C922C800A6B2A3 /* Arrow-Button_0000_1394162758_519702-210_CircledBorderArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C582AB018C922C700A6B2A3 /* Arrow-Button_0000_1394162758_519702-210_CircledBorderArrowRight.png */; };
+		8C744FFF18C8049800E490DC /* blue_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C744FFE18C8049800E490DC /* blue_Background.png */; };
+		8C74500118C8069700E490DC /* RnB_Curtains.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C74500018C8069700E490DC /* RnB_Curtains.png */; };
+		8C8DF88418C3B29B00E930A3 /* BlankCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DF87C18C3B29B00E930A3 /* BlankCircle.png */; };
+		8C8DF88518C3B29B00E930A3 /* NewHomeButton_0001s_0000_1393800249_Videos_Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DF87D18C3B29B00E930A3 /* NewHomeButton_0001s_0000_1393800249_Videos_Folder.png */; };
+		8C8DF88618C3B29B00E930A3 /* NewHomeButton_0001s_0001_Twitter-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DF87E18C3B29B00E930A3 /* NewHomeButton_0001s_0001_Twitter-icon.png */; };
+		8C8DF88718C3B29B00E930A3 /* NewHomeButton_0001s_0002_Rope_Fence-129.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DF87F18C3B29B00E930A3 /* NewHomeButton_0001s_0002_Rope_Fence-129.png */; };
+		8C8DF88818C3B29B00E930A3 /* NewHomeButton_0001s_0003_calendar-icon-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DF88018C3B29B00E930A3 /* NewHomeButton_0001s_0003_calendar-icon-512x512.png */; };
+		8C8DF88918C3B29B00E930A3 /* NewHomeButton_0001s_0004_1393801267_mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DF88118C3B29B00E930A3 /* NewHomeButton_0001s_0004_1393801267_mail.png */; };
+		8C8DF88A18C3B29B00E930A3 /* NewHomeButton_0001s_0005_RSVP-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DF88218C3B29B00E930A3 /* NewHomeButton_0001s_0005_RSVP-Button.png */; };
+		8C8DF88B18C3B29B00E930A3 /* NewHomeButton_0001s_0006_Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DF88318C3B29B00E930A3 /* NewHomeButton_0001s_0006_Camera.png */; };
+		8C8DF88F18C3B9F200E930A3 /* HollywoodFont(whiteFit)_0000_HollyWood.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DF88E18C3B9F200E930A3 /* HollywoodFont(whiteFit)_0000_HollyWood.png */; };
+		8C8DF89118C3BB6800E930A3 /* RnBLive-Logo(white).png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8DF89018C3BB6800E930A3 /* RnBLive-Logo(white).png */; };
+		8C8DF89718C3C3D100E930A3 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8DF89618C3C3D100E930A3 /* VideosViewController.m */; };
+		8CA99E1918C7E11D00FC9A0F /* Purple_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA99E1818C7E11D00FC9A0F /* Purple_background.png */; };
+		8CA99E1C18C7E49200FC9A0F /* MailingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA99E1B18C7E49200FC9A0F /* MailingViewController.m */; };
+		8CA99E1E18C7F3C900FC9A0F /* Transparent-Button_0000s_0000_Base.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA99E1D18C7F3C900FC9A0F /* Transparent-Button_0000s_0000_Base.png */; };
+		8CA99E2118C7F9EA00FC9A0F /* ReserveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA99E2018C7F9EA00FC9A0F /* ReserveViewController.m */; };
+		8CCA6BD618BE9AAC00828814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCA6BD518BE9AAC00828814 /* Foundation.framework */; };
+		8CCA6BD818BE9AAC00828814 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCA6BD718BE9AAC00828814 /* CoreGraphics.framework */; };
+		8CCA6BDA18BE9AAC00828814 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCA6BD918BE9AAC00828814 /* UIKit.framework */; };
+		8CCA6BE018BE9AAC00828814 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6BDE18BE9AAC00828814 /* InfoPlist.strings */; };
+		8CCA6BE218BE9AAC00828814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA6BE118BE9AAC00828814 /* main.m */; };
+		8CCA6BE618BE9AAC00828814 /* NewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA6BE518BE9AAC00828814 /* NewAppDelegate.m */; };
+		8CCA6BE918BE9AAC00828814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6BE718BE9AAC00828814 /* Main.storyboard */; };
+		8CCA6BEC18BE9AAC00828814 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA6BEB18BE9AAC00828814 /* NewViewController.m */; };
+		8CCA6BEE18BE9AAC00828814 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6BED18BE9AAC00828814 /* Images.xcassets */; };
+		8CCA6BF518BE9AAC00828814 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCA6BF418BE9AAC00828814 /* XCTest.framework */; };
+		8CCA6BF618BE9AAC00828814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCA6BD518BE9AAC00828814 /* Foundation.framework */; };
+		8CCA6BF718BE9AAC00828814 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCA6BD918BE9AAC00828814 /* UIKit.framework */; };
+		8CCA6BFF18BE9AAC00828814 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6BFD18BE9AAC00828814 /* InfoPlist.strings */; };
+		8CCA6C0118BE9AAC00828814 /* R_BLive_2014Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA6C0018BE9AAC00828814 /* R_BLive_2014Tests.m */; };
+		8CCA6D1618BE9DD400828814 /* Black-Layer.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6CDE18BE9DD300828814 /* Black-Layer.png */; };
+		8CCA6D1918BE9DD400828814 /* Feed-Rectangle-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6CE118BE9DD300828814 /* Feed-Rectangle-1.png */; };
+		8CCA6D1B18BE9DD400828814 /* Mailing-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6CE318BE9DD300828814 /* Mailing-Button.png */; };
+		8CCA6D1D18BE9DD400828814 /* Photo-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6CE618BE9DD300828814 /* Photo-Button.png */; };
+		8CCA6D2118BE9DD400828814 /* Polygon-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6CEA18BE9DD300828814 /* Polygon-5.png */; };
+		8CCA6D2218BE9DD400828814 /* R&B Live - Home (no buttons) LITTLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6CEB18BE9DD300828814 /* R&B Live - Home (no buttons) LITTLE.png */; };
+		8CCA6D2318BE9DD400828814 /* R&B Live - Home (no buttons) SIZED.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6CEC18BE9DD300828814 /* R&B Live - Home (no buttons) SIZED.png */; };
+		8CCA6D2418BE9DD400828814 /* R&B Live - Home (no buttons).png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6CED18BE9DD300828814 /* R&B Live - Home (no buttons).png */; };
+		8CCA6D2D18BE9DD400828814 /* R&B-Live---Home-(PNG-Layers)_0001s_0007_Rounded-Rectangle-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6CF618BE9DD300828814 /* R&B-Live---Home-(PNG-Layers)_0001s_0007_Rounded-Rectangle-2.png */; };
+		8CCA6D2E18BE9DD400828814 /* R&B-Live---Home-(PNG-Layers)_0001s_0008_Rounded-Rectangle-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6CF718BE9DD300828814 /* R&B-Live---Home-(PNG-Layers)_0001s_0008_Rounded-Rectangle-1.png */; };
+		8CCA6D4618BE9DD400828814 /* R&B-LiveBckgrnd1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6D0F18BE9DD400828814 /* R&B-LiveBckgrnd1.png */; };
+		8CCA6D4818BE9DD400828814 /* RedPolygon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6D1118BE9DD400828814 /* RedPolygon-2.png */; };
+		8CCA6D4918BE9DD400828814 /* RSVP-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6D1218BE9DD400828814 /* RSVP-Button.png */; };
+		8CCA6D4A18BE9DD400828814 /* Tweet-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6D1318BE9DD400828814 /* Tweet-Button.png */; };
+		8CCA6D4B18BE9DD400828814 /* Video-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6D1418BE9DD400828814 /* Video-Button.png */; };
+		8CCA6D5318BE9E1500828814 /* rsz_sk1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6D4C18BE9E1500828814 /* rsz_sk1.jpg */; };
+		8CCA6D5418BE9E1500828814 /* rsz_mv5bmje5otq5mje0m15bml5banbnxkftztcwmjqxmdu5oa_v1_sy317_cr200214317_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6D4D18BE9E1500828814 /* rsz_mv5bmje5otq5mje0m15bml5banbnxkftztcwmjqxmdu5oa_v1_sy317_cr200214317_.jpg */; };
+		8CCA6D5518BE9E1500828814 /* rsz_keaira.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6D4E18BE9E1500828814 /* rsz_keaira.png */; };
+		8CCA6D5618BE9E1500828814 /* rsz_1rsz_1urbanlook1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6D4F18BE9E1500828814 /* rsz_1rsz_1urbanlook1.jpg */; };
+		8CCA6D5718BE9E1500828814 /* urbanlook1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6D5018BE9E1500828814 /* urbanlook1.jpg */; };
+		8CCA6D5818BE9E1500828814 /* MV5BMjE5OTQ5MjE0M15BMl5BanBnXkFtZTcwMjQxMDU5OA@@._V1_SY317_CR20,0,214,317_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6D5118BE9E1500828814 /* MV5BMjE5OTQ5MjE0M15BMl5BanBnXkFtZTcwMjQxMDU5OA@@._V1_SY317_CR20,0,214,317_.jpg */; };
+		8CCA6D5918BE9E1500828814 /* sk1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA6D5218BE9E1500828814 /* sk1.JPG */; };
+		8CD56818193EAB6F00C90559 /* (BLURR)goldbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567EF193EAB6F00C90559 /* (BLURR)goldbackground.png */; };
+		8CD56819193EAB6F00C90559 /* (BLURR)hollywood_lights__by_LYDSdestroyed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567F0193EAB6F00C90559 /* (BLURR)hollywood_lights__by_LYDSdestroyed.png */; };
+		8CD5681A193EAB6F00C90559 /* 1391451527_contakt.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567F1193EAB6F00C90559 /* 1391451527_contakt.png */; };
+		8CD5681B193EAB6F00C90559 /* 1391454521_Hollywood_smile copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567F2193EAB6F00C90559 /* 1391454521_Hollywood_smile copy.png */; };
+		8CD5681C193EAB6F00C90559 /* 1392248389_My_Videos copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567F3193EAB6F00C90559 /* 1392248389_My_Videos copy.png */; };
+		8CD5681D193EAB6F00C90559 /* 1392248389_My_Videos.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567F4193EAB6F00C90559 /* 1392248389_My_Videos.png */; };
+		8CD5681E193EAB6F00C90559 /* 3819092871_24a6e929be_z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567F5193EAB6F00C90559 /* 3819092871_24a6e929be_z.jpg */; };
+		8CD5681F193EAB6F00C90559 /* 46-Chats-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567F6193EAB6F00C90559 /* 46-Chats-icon.png */; };
+		8CD56820193EAB6F00C90559 /* 46db88b0-d59b-4ff5-985b-eb9e4be003e9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567F7193EAB6F00C90559 /* 46db88b0-d59b-4ff5-985b-eb9e4be003e9.jpg */; };
+		8CD56821193EAB6F00C90559 /* 5398145-307380-gold-abstract-light-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567F8193EAB6F00C90559 /* 5398145-307380-gold-abstract-light-background.jpg */; };
+		8CD56822193EAB6F00C90559 /* 5bc717ee-a2b7-edda-ff08-d312bba94da4-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567F9193EAB6F00C90559 /* 5bc717ee-a2b7-edda-ff08-d312bba94da4-small.jpg */; };
+		8CD56823193EAB6F00C90559 /* background-lights.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567FA193EAB6F00C90559 /* background-lights.jpg */; };
+		8CD56824193EAB6F00C90559 /* Banner1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567FB193EAB6F00C90559 /* Banner1.jpg */; };
+		8CD56825193EAB6F00C90559 /* Banner2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567FC193EAB6F00C90559 /* Banner2.jpg */; };
+		8CD56826193EAB6F00C90559 /* black_gold_glitter_typography_wedding_rsvp_cards-r2b79a1c9e9944dbda52797bd2fe94e35_imtq3_8byvr_512.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567FD193EAB6F00C90559 /* black_gold_glitter_typography_wedding_rsvp_cards-r2b79a1c9e9944dbda52797bd2fe94e35_imtq3_8byvr_512.jpg */; };
+		8CD56827193EAB6F00C90559 /* Blue-Concert-PartyLights1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567FE193EAB6F00C90559 /* Blue-Concert-PartyLights1.jpg */; };
+		8CD56828193EAB6F00C90559 /* brookvalentineflyer_DLsList.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD567FF193EAB6F00C90559 /* brookvalentineflyer_DLsList.png */; };
+		8CD56829193EAB6F00C90559 /* calendar-icon-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56800193EAB6F00C90559 /* calendar-icon-512x512.png */; };
+		8CD5682A193EAB6F00C90559 /* f27449bc-1e58-11e3-a23f-22000a91e9a7-large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56801193EAB6F00C90559 /* f27449bc-1e58-11e3-a23f-22000a91e9a7-large.jpg */; };
+		8CD5682B193EAB6F00C90559 /* Folders-Videos-Folder-icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56802193EAB6F00C90559 /* Folders-Videos-Folder-icon1.png */; };
+		8CD5682C193EAB6F00C90559 /* Folders-Videos-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56803193EAB6F00C90559 /* Folders-Videos-icon.png */; };
+		8CD5682D193EAB6F00C90559 /* GlitterBckgrnd1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56804193EAB6F00C90559 /* GlitterBckgrnd1.jpg */; };
+		8CD5682E193EAB6F00C90559 /* hollywood_lights__by_LYDSdestroyed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56805193EAB6F00C90559 /* hollywood_lights__by_LYDSdestroyed.jpg */; };
+		8CD5682F193EAB6F00C90559 /* HollywoodLights1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56806193EAB6F00C90559 /* HollywoodLights1.jpg */; };
+		8CD56830193EAB6F00C90559 /* HollywoodLights1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56807193EAB6F00C90559 /* HollywoodLights1.png */; };
+		8CD56831193EAB6F00C90559 /* LED-stadium-lights-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56808193EAB6F00C90559 /* LED-stadium-lights-1.jpg */; };
+		8CD56832193EAB6F00C90559 /* Plaza-marquee-lights1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56809193EAB6F00C90559 /* Plaza-marquee-lights1.jpg */; };
+		8CD56833193EAB6F00C90559 /* RnB-IconOpt1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5680A193EAB6F00C90559 /* RnB-IconOpt1.png */; };
+		8CD56834193EAB6F00C90559 /* rnb-live-weds-sunset-club.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5680B193EAB6F00C90559 /* rnb-live-weds-sunset-club.jpg */; };
+		8CD56835193EAB6F00C90559 /* rnblive-Rainbow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5680C193EAB6F00C90559 /* rnblive-Rainbow.jpg */; };
+		8CD56836193EAB6F00C90559 /* Rope_Fence-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5680D193EAB6F00C90559 /* Rope_Fence-128.png */; };
+		8CD56837193EAB6F00C90559 /* Rope_Fence-128.psd in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5680E193EAB6F00C90559 /* Rope_Fence-128.psd */; };
+		8CD56838193EAB6F00C90559 /* Rope_Fence-129.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5680F193EAB6F00C90559 /* Rope_Fence-129.png */; };
+		8CD56839193EAB6F00C90559 /* Sparkles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56810193EAB6F00C90559 /* Sparkles.jpg */; };
+		8CD5683A193EAB6F00C90559 /* Sparkles2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56811193EAB6F00C90559 /* Sparkles2.jpg */; };
+		8CD5683B193EAB6F00C90559 /* StageLights1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56812193EAB6F00C90559 /* StageLights1.jpg */; };
+		8CD5683C193EAB6F00C90559 /* Theatrical-marquee-golden1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56813193EAB6F00C90559 /* Theatrical-marquee-golden1.jpg */; };
+		8CD5683D193EAB6F00C90559 /* twitter-bar-970x360.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56814193EAB6F00C90559 /* twitter-bar-970x360.jpg */; };
+		8CD5683E193EAB6F00C90559 /* twitter-icon-1 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56815193EAB6F00C90559 /* twitter-icon-1 copy.png */; };
+		8CD5683F193EAB6F00C90559 /* VegasShow-sign1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56816193EAB6F00C90559 /* VegasShow-sign1.jpg */; };
+		8CD56840193EAB6F00C90559 /* white-marquee-lights-golden-background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD56817193EAB6F00C90559 /* white-marquee-lights-golden-background1.jpg */; };
+		8CF1A45518BF680400783B07 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF1A45418BF680400783B07 /* Accounts.framework */; };
+		8CF1A45718BF680B00783B07 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF1A45618BF680B00783B07 /* Social.framework */; };
+		8CF1A47118C0BE0700783B07 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1A47018C0BE0700783B07 /* WebViewController.m */; };
+		8CF1A47718C0F7B200783B07 /* SharePhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1A47618C0F7B200783B07 /* SharePhotosViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CCA6BF818BE9AAC00828814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CCA6BCA18BE9AAC00828814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CCA6BD118BE9AAC00828814;
+			remoteInfo = "R&BLive-2014";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C1DA98018C3D12E00F2166C /* GuestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestViewController.h; sourceTree = "<group>"; };
+		8C1DA98118C3D12E00F2166C /* GuestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestViewController.m; sourceTree = "<group>"; };
+		8C1FEEE418C3DD98004D31AB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8C582AB018C922C700A6B2A3 /* Arrow-Button_0000_1394162758_519702-210_CircledBorderArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Arrow-Button_0000_1394162758_519702-210_CircledBorderArrowRight.png"; path = "../../Documents/Arrow-Button_0000_1394162758_519702-210_CircledBorderArrowRight.png"; sourceTree = "<group>"; };
+		8C744FFE18C8049800E490DC /* blue_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue_Background.png; path = ../../Documents/blue_Background.png; sourceTree = "<group>"; };
+		8C74500018C8069700E490DC /* RnB_Curtains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RnB_Curtains.png; path = ../../Documents/RnB_Curtains.png; sourceTree = "<group>"; };
+		8C8DF87C18C3B29B00E930A3 /* BlankCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlankCircle.png; sourceTree = "<group>"; };
+		8C8DF87D18C3B29B00E930A3 /* NewHomeButton_0001s_0000_1393800249_Videos_Folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewHomeButton_0001s_0000_1393800249_Videos_Folder.png; sourceTree = "<group>"; };
+		8C8DF87E18C3B29B00E930A3 /* NewHomeButton_0001s_0001_Twitter-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewHomeButton_0001s_0001_Twitter-icon.png"; sourceTree = "<group>"; };
+		8C8DF87F18C3B29B00E930A3 /* NewHomeButton_0001s_0002_Rope_Fence-129.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewHomeButton_0001s_0002_Rope_Fence-129.png"; sourceTree = "<group>"; };
+		8C8DF88018C3B29B00E930A3 /* NewHomeButton_0001s_0003_calendar-icon-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewHomeButton_0001s_0003_calendar-icon-512x512.png"; sourceTree = "<group>"; };
+		8C8DF88118C3B29B00E930A3 /* NewHomeButton_0001s_0004_1393801267_mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewHomeButton_0001s_0004_1393801267_mail.png; sourceTree = "<group>"; };
+		8C8DF88218C3B29B00E930A3 /* NewHomeButton_0001s_0005_RSVP-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewHomeButton_0001s_0005_RSVP-Button.png"; sourceTree = "<group>"; };
+		8C8DF88318C3B29B00E930A3 /* NewHomeButton_0001s_0006_Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewHomeButton_0001s_0006_Camera.png; sourceTree = "<group>"; };
+		8C8DF88E18C3B9F200E930A3 /* HollywoodFont(whiteFit)_0000_HollyWood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HollywoodFont(whiteFit)_0000_HollyWood.png"; path = "../HollywoodFont(whiteFit)_0000_HollyWood.png"; sourceTree = "<group>"; };
+		8C8DF89018C3BB6800E930A3 /* RnBLive-Logo(white).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RnBLive-Logo(white).png"; path = "../../Desktop/RnB-pics-Ripped/RnBLive-Logo(white).png"; sourceTree = "<group>"; };
+		8C8DF89518C3C3D100E930A3 /* VideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosViewController.h; sourceTree = "<group>"; };
+		8C8DF89618C3C3D100E930A3 /* VideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosViewController.m; sourceTree = "<group>"; };
+		8CA99E1818C7E11D00FC9A0F /* Purple_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Purple_background.png; path = ../../Documents/Purple_background.png; sourceTree = "<group>"; };
+		8CA99E1A18C7E49200FC9A0F /* MailingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MailingViewController.h; path = ../../../../.Trash/MailingViewController.h; sourceTree = "<group>"; };
+		8CA99E1B18C7E49200FC9A0F /* MailingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MailingViewController.m; path = ../../../../.Trash/MailingViewController.m; sourceTree = "<group>"; };
+		8CA99E1D18C7F3C900FC9A0F /* Transparent-Button_0000s_0000_Base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Transparent-Button_0000s_0000_Base.png"; path = "../../Documents/Transparent-Button_0000s_0000_Base.png"; sourceTree = "<group>"; };
+		8CA99E1F18C7F9EA00FC9A0F /* ReserveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReserveViewController.h; path = ../../../../.Trash/ReserveViewController.h; sourceTree = "<group>"; };
+		8CA99E2018C7F9EA00FC9A0F /* ReserveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReserveViewController.m; path = ../../../../.Trash/ReserveViewController.m; sourceTree = "<group>"; };
+		8CCA6BD218BE9AAC00828814 /* R&BLive-2014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R&BLive-2014.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCA6BD518BE9AAC00828814 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CCA6BD718BE9AAC00828814 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8CCA6BD918BE9AAC00828814 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CCA6BDD18BE9AAC00828814 /* R&BLive-2014-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "R&BLive-2014-Info.plist"; sourceTree = "<group>"; };
+		8CCA6BDF18BE9AAC00828814 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CCA6BE118BE9AAC00828814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CCA6BE318BE9AAC00828814 /* R&BLive-2014-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "R&BLive-2014-Prefix.pch"; sourceTree = "<group>"; };
+		8CCA6BE518BE9AAC00828814 /* NewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewAppDelegate.m; sourceTree = "<group>"; };
+		8CCA6BE818BE9AAC00828814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CCA6BEA18BE9AAC00828814 /* NewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		8CCA6BEB18BE9AAC00828814 /* NewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		8CCA6BED18BE9AAC00828814 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CCA6BF318BE9AAC00828814 /* R&BLive-2014Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "R&BLive-2014Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCA6BF418BE9AAC00828814 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8CCA6BFC18BE9AAC00828814 /* R&BLive-2014Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "R&BLive-2014Tests-Info.plist"; sourceTree = "<group>"; };
+		8CCA6BFE18BE9AAC00828814 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CCA6C0018BE9AAC00828814 /* R_BLive_2014Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = R_BLive_2014Tests.m; sourceTree = "<group>"; };
+		8CCA6CDE18BE9DD300828814 /* Black-Layer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black-Layer.png"; sourceTree = "<group>"; };
+		8CCA6CE118BE9DD300828814 /* Feed-Rectangle-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Feed-Rectangle-1.png"; sourceTree = "<group>"; };
+		8CCA6CE318BE9DD300828814 /* Mailing-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mailing-Button.png"; sourceTree = "<group>"; };
+		8CCA6CE618BE9DD300828814 /* Photo-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Photo-Button.png"; sourceTree = "<group>"; };
+		8CCA6CEA18BE9DD300828814 /* Polygon-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Polygon-5.png"; sourceTree = "<group>"; };
+		8CCA6CEB18BE9DD300828814 /* R&B Live - Home (no buttons) LITTLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R&B Live - Home (no buttons) LITTLE.png"; sourceTree = "<group>"; };
+		8CCA6CEC18BE9DD300828814 /* R&B Live - Home (no buttons) SIZED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R&B Live - Home (no buttons) SIZED.png"; sourceTree = "<group>"; };
+		8CCA6CED18BE9DD300828814 /* R&B Live - Home (no buttons).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R&B Live - Home (no buttons).png"; sourceTree = "<group>"; };
+		8CCA6CF618BE9DD300828814 /* R&B-Live---Home-(PNG-Layers)_0001s_0007_Rounded-Rectangle-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R&B-Live---Home-(PNG-Layers)_0001s_0007_Rounded-Rectangle-2.png"; sourceTree = "<group>"; };
+		8CCA6CF718BE9DD300828814 /* R&B-Live---Home-(PNG-Layers)_0001s_0008_Rounded-Rectangle-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R&B-Live---Home-(PNG-Layers)_0001s_0008_Rounded-Rectangle-1.png"; sourceTree = "<group>"; };
+		8CCA6D0F18BE9DD400828814 /* R&B-LiveBckgrnd1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R&B-LiveBckgrnd1.png"; sourceTree = "<group>"; };
+		8CCA6D1118BE9DD400828814 /* RedPolygon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RedPolygon-2.png"; sourceTree = "<group>"; };
+		8CCA6D1218BE9DD400828814 /* RSVP-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSVP-Button.png"; sourceTree = "<group>"; };
+		8CCA6D1318BE9DD400828814 /* Tweet-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tweet-Button.png"; sourceTree = "<group>"; };
+		8CCA6D1418BE9DD400828814 /* Video-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Video-Button.png"; sourceTree = "<group>"; };
+		8CCA6D4C18BE9E1500828814 /* rsz_sk1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rsz_sk1.jpg; path = ../../Downloads/rsz_sk1.jpg; sourceTree = "<group>"; };
+		8CCA6D4D18BE9E1500828814 /* rsz_mv5bmje5otq5mje0m15bml5banbnxkftztcwmjqxmdu5oa_v1_sy317_cr200214317_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rsz_mv5bmje5otq5mje0m15bml5banbnxkftztcwmjqxmdu5oa_v1_sy317_cr200214317_.jpg; path = ../../Downloads/rsz_mv5bmje5otq5mje0m15bml5banbnxkftztcwmjqxmdu5oa_v1_sy317_cr200214317_.jpg; sourceTree = "<group>"; };
+		8CCA6D4E18BE9E1500828814 /* rsz_keaira.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rsz_keaira.png; path = ../../Downloads/rsz_keaira.png; sourceTree = "<group>"; };
+		8CCA6D4F18BE9E1500828814 /* rsz_1rsz_1urbanlook1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rsz_1rsz_1urbanlook1.jpg; path = ../../Downloads/rsz_1rsz_1urbanlook1.jpg; sourceTree = "<group>"; };
+		8CCA6D5018BE9E1500828814 /* urbanlook1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = urbanlook1.jpg; path = ../../Downloads/urbanlook1.jpg; sourceTree = "<group>"; };
+		8CCA6D5118BE9E1500828814 /* MV5BMjE5OTQ5MjE0M15BMl5BanBnXkFtZTcwMjQxMDU5OA@@._V1_SY317_CR20,0,214,317_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "MV5BMjE5OTQ5MjE0M15BMl5BanBnXkFtZTcwMjQxMDU5OA@@._V1_SY317_CR20,0,214,317_.jpg"; path = "../../Downloads/MV5BMjE5OTQ5MjE0M15BMl5BanBnXkFtZTcwMjQxMDU5OA@@._V1_SY317_CR20,0,214,317_.jpg"; sourceTree = "<group>"; };
+		8CCA6D5218BE9E1500828814 /* sk1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sk1.JPG; path = ../../Downloads/sk1.JPG; sourceTree = "<group>"; };
+		8CD567EF193EAB6F00C90559 /* (BLURR)goldbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(BLURR)goldbackground.png"; sourceTree = "<group>"; };
+		8CD567F0193EAB6F00C90559 /* (BLURR)hollywood_lights__by_LYDSdestroyed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "(BLURR)hollywood_lights__by_LYDSdestroyed.png"; sourceTree = "<group>"; };
+		8CD567F1193EAB6F00C90559 /* 1391451527_contakt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1391451527_contakt.png; sourceTree = "<group>"; };
+		8CD567F2193EAB6F00C90559 /* 1391454521_Hollywood_smile copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1391454521_Hollywood_smile copy.png"; sourceTree = "<group>"; };
+		8CD567F3193EAB6F00C90559 /* 1392248389_My_Videos copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1392248389_My_Videos copy.png"; sourceTree = "<group>"; };
+		8CD567F4193EAB6F00C90559 /* 1392248389_My_Videos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1392248389_My_Videos.png; sourceTree = "<group>"; };
+		8CD567F5193EAB6F00C90559 /* 3819092871_24a6e929be_z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3819092871_24a6e929be_z.jpg; sourceTree = "<group>"; };
+		8CD567F6193EAB6F00C90559 /* 46-Chats-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "46-Chats-icon.png"; sourceTree = "<group>"; };
+		8CD567F7193EAB6F00C90559 /* 46db88b0-d59b-4ff5-985b-eb9e4be003e9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "46db88b0-d59b-4ff5-985b-eb9e4be003e9.jpg"; sourceTree = "<group>"; };
+		8CD567F8193EAB6F00C90559 /* 5398145-307380-gold-abstract-light-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5398145-307380-gold-abstract-light-background.jpg"; sourceTree = "<group>"; };
+		8CD567F9193EAB6F00C90559 /* 5bc717ee-a2b7-edda-ff08-d312bba94da4-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5bc717ee-a2b7-edda-ff08-d312bba94da4-small.jpg"; sourceTree = "<group>"; };
+		8CD567FA193EAB6F00C90559 /* background-lights.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-lights.jpg"; sourceTree = "<group>"; };
+		8CD567FB193EAB6F00C90559 /* Banner1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Banner1.jpg; sourceTree = "<group>"; };
+		8CD567FC193EAB6F00C90559 /* Banner2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Banner2.jpg; sourceTree = "<group>"; };
+		8CD567FD193EAB6F00C90559 /* black_gold_glitter_typography_wedding_rsvp_cards-r2b79a1c9e9944dbda52797bd2fe94e35_imtq3_8byvr_512.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black_gold_glitter_typography_wedding_rsvp_cards-r2b79a1c9e9944dbda52797bd2fe94e35_imtq3_8byvr_512.jpg"; sourceTree = "<group>"; };
+		8CD567FE193EAB6F00C90559 /* Blue-Concert-PartyLights1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue-Concert-PartyLights1.jpg"; sourceTree = "<group>"; };
+		8CD567FF193EAB6F00C90559 /* brookvalentineflyer_DLsList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brookvalentineflyer_DLsList.png; sourceTree = "<group>"; };
+		8CD56800193EAB6F00C90559 /* calendar-icon-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-icon-512x512.png"; sourceTree = "<group>"; };
+		8CD56801193EAB6F00C90559 /* f27449bc-1e58-11e3-a23f-22000a91e9a7-large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "f27449bc-1e58-11e3-a23f-22000a91e9a7-large.jpg"; sourceTree = "<group>"; };
+		8CD56802193EAB6F00C90559 /* Folders-Videos-Folder-icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Folders-Videos-Folder-icon1.png"; sourceTree = "<group>"; };
+		8CD56803193EAB6F00C90559 /* Folders-Videos-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Folders-Videos-icon.png"; sourceTree = "<group>"; };
+		8CD56804193EAB6F00C90559 /* GlitterBckgrnd1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GlitterBckgrnd1.jpg; sourceTree = "<group>"; };
+		8CD56805193EAB6F00C90559 /* hollywood_lights__by_LYDSdestroyed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hollywood_lights__by_LYDSdestroyed.jpg; sourceTree = "<group>"; };
+		8CD56806193EAB6F00C90559 /* HollywoodLights1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HollywoodLights1.jpg; sourceTree = "<group>"; };
+		8CD56807193EAB6F00C90559 /* HollywoodLights1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HollywoodLights1.png; sourceTree = "<group>"; };
+		8CD56808193EAB6F00C90559 /* LED-stadium-lights-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LED-stadium-lights-1.jpg"; sourceTree = "<group>"; };
+		8CD56809193EAB6F00C90559 /* Plaza-marquee-lights1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Plaza-marquee-lights1.jpg"; sourceTree = "<group>"; };
+		8CD5680A193EAB6F00C90559 /* RnB-IconOpt1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RnB-IconOpt1.png"; sourceTree = "<group>"; };
+		8CD5680B193EAB6F00C90559 /* rnb-live-weds-sunset-club.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rnb-live-weds-sunset-club.jpg"; sourceTree = "<group>"; };
+		8CD5680C193EAB6F00C90559 /* rnblive-Rainbow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rnblive-Rainbow.jpg"; sourceTree = "<group>"; };
+		8CD5680D193EAB6F00C90559 /* Rope_Fence-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rope_Fence-128.png"; sourceTree = "<group>"; };
+		8CD5680E193EAB6F00C90559 /* Rope_Fence-128.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rope_Fence-128.psd"; sourceTree = "<group>"; };
+		8CD5680F193EAB6F00C90559 /* Rope_Fence-129.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rope_Fence-129.png"; sourceTree = "<group>"; };
+		8CD56810193EAB6F00C90559 /* Sparkles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sparkles.jpg; sourceTree = "<group>"; };
+		8CD56811193EAB6F00C90559 /* Sparkles2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sparkles2.jpg; sourceTree = "<group>"; };
+		8CD56812193EAB6F00C90559 /* StageLights1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StageLights1.jpg; sourceTree = "<group>"; };
+		8CD56813193EAB6F00C90559 /* Theatrical-marquee-golden1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Theatrical-marquee-golden1.jpg"; sourceTree = "<group>"; };
+		8CD56814193EAB6F00C90559 /* twitter-bar-970x360.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twitter-bar-970x360.jpg"; sourceTree = "<group>"; };
+		8CD56815193EAB6F00C90559 /* twitter-icon-1 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-icon-1 copy.png"; sourceTree = "<group>"; };
+		8CD56816193EAB6F00C90559 /* VegasShow-sign1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "VegasShow-sign1.jpg"; sourceTree = "<group>"; };
+		8CD56817193EAB6F00C90559 /* white-marquee-lights-golden-background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "white-marquee-lights-golden-background1.jpg"; sourceTree = "<group>"; };
+		8CF1A45418BF680400783B07 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		8CF1A45618BF680B00783B07 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		8CF1A46F18C0BE0700783B07 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		8CF1A47018C0BE0700783B07 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		8CF1A47518C0F7B200783B07 /* SharePhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharePhotosViewController.h; sourceTree = "<group>"; };
+		8CF1A47618C0F7B200783B07 /* SharePhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharePhotosViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CCA6BCF18BE9AAC00828814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1FEEE518C3DD99004D31AB /* MessageUI.framework in Frameworks */,
+				8CF1A45718BF680B00783B07 /* Social.framework in Frameworks */,
+				8CF1A45518BF680400783B07 /* Accounts.framework in Frameworks */,
+				8CCA6BD818BE9AAC00828814 /* CoreGraphics.framework in Frameworks */,
+				8CCA6BDA18BE9AAC00828814 /* UIKit.framework in Frameworks */,
+				8CCA6BD618BE9AAC00828814 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCA6BF018BE9AAC00828814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCA6BF518BE9AAC00828814 /* XCTest.framework in Frameworks */,
+				8CCA6BF718BE9AAC00828814 /* UIKit.framework in Frameworks */,
+				8CCA6BF618BE9AAC00828814 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C8DF87B18C3B29B00E930A3 /* Circle of Buttons - Contents */ = {
+			isa = PBXGroup;
+			children = (
+				8C8DF87C18C3B29B00E930A3 /* BlankCircle.png */,
+				8C8DF87D18C3B29B00E930A3 /* NewHomeButton_0001s_0000_1393800249_Videos_Folder.png */,
+				8C8DF87E18C3B29B00E930A3 /* NewHomeButton_0001s_0001_Twitter-icon.png */,
+				8C8DF87F18C3B29B00E930A3 /* NewHomeButton_0001s_0002_Rope_Fence-129.png */,
+				8C8DF88018C3B29B00E930A3 /* NewHomeButton_0001s_0003_calendar-icon-512x512.png */,
+				8C8DF88118C3B29B00E930A3 /* NewHomeButton_0001s_0004_1393801267_mail.png */,
+				8C8DF88218C3B29B00E930A3 /* NewHomeButton_0001s_0005_RSVP-Button.png */,
+				8C8DF88318C3B29B00E930A3 /* NewHomeButton_0001s_0006_Camera.png */,
+			);
+			name = "Circle of Buttons - Contents";
+			path = "../../../Circle of Buttons - Contents";
+			sourceTree = "<group>";
+		};
+		8CCA6BC918BE9AAC00828814 = {
+			isa = PBXGroup;
+			children = (
+				8CD567EE193EAB6F00C90559 /* RnB Live - Layouts, Pics, Icons */,
+				8CCA6BDB18BE9AAC00828814 /* R&BLive-2014 */,
+				8CCA6BFA18BE9AAC00828814 /* R&BLive-2014Tests */,
+				8CCA6BD418BE9AAC00828814 /* Frameworks */,
+				8CCA6BD318BE9AAC00828814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CCA6BD318BE9AAC00828814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CCA6BD218BE9AAC00828814 /* R&BLive-2014.app */,
+				8CCA6BF318BE9AAC00828814 /* R&BLive-2014Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CCA6BD418BE9AAC00828814 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C1FEEE418C3DD98004D31AB /* MessageUI.framework */,
+				8CF1A45618BF680B00783B07 /* Social.framework */,
+				8CF1A45418BF680400783B07 /* Accounts.framework */,
+				8CCA6BD518BE9AAC00828814 /* Foundation.framework */,
+				8CCA6BD718BE9AAC00828814 /* CoreGraphics.framework */,
+				8CCA6BD918BE9AAC00828814 /* UIKit.framework */,
+				8CCA6BF418BE9AAC00828814 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CCA6BDB18BE9AAC00828814 /* R&BLive-2014 */ = {
+			isa = PBXGroup;
+			children = (
+				8C8DF87B18C3B29B00E930A3 /* Circle of Buttons - Contents */,
+				8CCA6CDC18BE9DD300828814 /* PNG Files */,
+				8CCA6C8918BE9BE600828814 /* Layouts, Pics, Icons - RnB Live */,
+				8CCA6BE518BE9AAC00828814 /* NewAppDelegate.m */,
+				8CCA6BE718BE9AAC00828814 /* Main.storyboard */,
+				8CCA6BEA18BE9AAC00828814 /* NewViewController.h */,
+				8CCA6BEB18BE9AAC00828814 /* NewViewController.m */,
+				8CF1A46F18C0BE0700783B07 /* WebViewController.h */,
+				8CF1A47018C0BE0700783B07 /* WebViewController.m */,
+				8CF1A47518C0F7B200783B07 /* SharePhotosViewController.h */,
+				8CF1A47618C0F7B200783B07 /* SharePhotosViewController.m */,
+				8C8DF89518C3C3D100E930A3 /* VideosViewController.h */,
+				8C8DF89618C3C3D100E930A3 /* VideosViewController.m */,
+				8C1DA98018C3D12E00F2166C /* GuestViewController.h */,
+				8C1DA98118C3D12E00F2166C /* GuestViewController.m */,
+				8CA99E1A18C7E49200FC9A0F /* MailingViewController.h */,
+				8CA99E1B18C7E49200FC9A0F /* MailingViewController.m */,
+				8CA99E1F18C7F9EA00FC9A0F /* ReserveViewController.h */,
+				8CA99E2018C7F9EA00FC9A0F /* ReserveViewController.m */,
+				8CCA6BED18BE9AAC00828814 /* Images.xcassets */,
+				8CCA6BDC18BE9AAC00828814 /* Supporting Files */,
+			);
+			path = "R&BLive-2014";
+			sourceTree = "<group>";
+		};
+		8CCA6BDC18BE9AAC00828814 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CCA6BDD18BE9AAC00828814 /* R&BLive-2014-Info.plist */,
+				8CCA6BDE18BE9AAC00828814 /* InfoPlist.strings */,
+				8CCA6BE118BE9AAC00828814 /* main.m */,
+				8CCA6BE318BE9AAC00828814 /* R&BLive-2014-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CCA6BFA18BE9AAC00828814 /* R&BLive-2014Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8CCA6C0018BE9AAC00828814 /* R_BLive_2014Tests.m */,
+				8CCA6BFB18BE9AAC00828814 /* Supporting Files */,
+			);
+			path = "R&BLive-2014Tests";
+			sourceTree = "<group>";
+		};
+		8CCA6BFB18BE9AAC00828814 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CCA6BFC18BE9AAC00828814 /* R&BLive-2014Tests-Info.plist */,
+				8CCA6BFD18BE9AAC00828814 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CCA6C8918BE9BE600828814 /* Layouts, Pics, Icons - RnB Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Layouts, Pics, Icons - RnB Live";
+			path = "../../../../Desktop/Layouts, Pics, Icons - RnB Live";
+			sourceTree = "<group>";
+		};
+		8CCA6CDC18BE9DD300828814 /* PNG Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C8DF88E18C3B9F200E930A3 /* HollywoodFont(whiteFit)_0000_HollyWood.png */,
+				8C8DF89018C3BB6800E930A3 /* RnBLive-Logo(white).png */,
+				8CCA6CDE18BE9DD300828814 /* Black-Layer.png */,
+				8CCA6CE118BE9DD300828814 /* Feed-Rectangle-1.png */,
+				8CCA6CE318BE9DD300828814 /* Mailing-Button.png */,
+				8CCA6CE618BE9DD300828814 /* Photo-Button.png */,
+				8CCA6CEA18BE9DD300828814 /* Polygon-5.png */,
+				8CCA6CEB18BE9DD300828814 /* R&B Live - Home (no buttons) LITTLE.png */,
+				8CCA6CEC18BE9DD300828814 /* R&B Live - Home (no buttons) SIZED.png */,
+				8CCA6CED18BE9DD300828814 /* R&B Live - Home (no buttons).png */,
+				8CCA6CF618BE9DD300828814 /* R&B-Live---Home-(PNG-Layers)_0001s_0007_Rounded-Rectangle-2.png */,
+				8CCA6CF718BE9DD300828814 /* R&B-Live---Home-(PNG-Layers)_0001s_0008_Rounded-Rectangle-1.png */,
+				8CCA6D0F18BE9DD400828814 /* R&B-LiveBckgrnd1.png */,
+				8CCA6D1118BE9DD400828814 /* RedPolygon-2.png */,
+				8CCA6D1218BE9DD400828814 /* RSVP-Button.png */,
+				8CCA6D1318BE9DD400828814 /* Tweet-Button.png */,
+				8CCA6D1418BE9DD400828814 /* Video-Button.png */,
+			);
+			name = "PNG Files";
+			path = "../../../PNG Files";
+			sourceTree = "<group>";
+		};
+		8CD567EE193EAB6F00C90559 /* RnB Live - Layouts, Pics, Icons */ = {
+			isa = PBXGroup;
+			children = (
+				8CCA6D4F18BE9E1500828814 /* rsz_1rsz_1urbanlook1.jpg */,
+				8CCA6D5018BE9E1500828814 /* urbanlook1.jpg */,
+				8CCA6D5118BE9E1500828814 /* MV5BMjE5OTQ5MjE0M15BMl5BanBnXkFtZTcwMjQxMDU5OA@@._V1_SY317_CR20,0,214,317_.jpg */,
+				8CCA6D5218BE9E1500828814 /* sk1.JPG */,
+				8C582AB018C922C700A6B2A3 /* Arrow-Button_0000_1394162758_519702-210_CircledBorderArrowRight.png */,
+				8C74500018C8069700E490DC /* RnB_Curtains.png */,
+				8C744FFE18C8049800E490DC /* blue_Background.png */,
+				8CA99E1D18C7F3C900FC9A0F /* Transparent-Button_0000s_0000_Base.png */,
+				8CA99E1818C7E11D00FC9A0F /* Purple_background.png */,
+				8CCA6D4C18BE9E1500828814 /* rsz_sk1.jpg */,
+				8CCA6D4D18BE9E1500828814 /* rsz_mv5bmje5otq5mje0m15bml5banbnxkftztcwmjqxmdu5oa_v1_sy317_cr200214317_.jpg */,
+				8CCA6D4E18BE9E1500828814 /* rsz_keaira.png */,
+				8CD567EF193EAB6F00C90559 /* (BLURR)goldbackground.png */,
+				8CD567F0193EAB6F00C90559 /* (BLURR)hollywood_lights__by_LYDSdestroyed.png */,
+				8CD567F1193EAB6F00C90559 /* 1391451527_contakt.png */,
+				8CD567F2193EAB6F00C90559 /* 1391454521_Hollywood_smile copy.png */,
+				8CD567F3193EAB6F00C90559 /* 1392248389_My_Videos copy.png */,
+				8CD567F4193EAB6F00C90559 /* 1392248389_My_Videos.png */,
+				8CD567F5193EAB6F00C90559 /* 3819092871_24a6e929be_z.jpg */,
+				8CD567F6193EAB6F00C90559 /* 46-Chats-icon.png */,
+				8CD567F7193EAB6F00C90559 /* 46db88b0-d59b-4ff5-985b-eb9e4be003e9.jpg */,
+				8CD567F8193EAB6F00C90559 /* 5398145-307380-gold-abstract-light-background.jpg */,
+				8CD567F9193EAB6F00C90559 /* 5bc717ee-a2b7-edda-ff08-d312bba94da4-small.jpg */,
+				8CD567FA193EAB6F00C90559 /* background-lights.jpg */,
+				8CD567FB193EAB6F00C90559 /* Banner1.jpg */,
+				8CD567FC193EAB6F00C90559 /* Banner2.jpg */,
+				8CD567FD193EAB6F00C90559 /* black_gold_glitter_typography_wedding_rsvp_cards-r2b79a1c9e9944dbda52797bd2fe94e35_imtq3_8byvr_512.jpg */,
+				8CD567FE193EAB6F00C90559 /* Blue-Concert-PartyLights1.jpg */,
+				8CD567FF193EAB6F00C90559 /* brookvalentineflyer_DLsList.png */,
+				8CD56800193EAB6F00C90559 /* calendar-icon-512x512.png */,
+				8CD56801193EAB6F00C90559 /* f27449bc-1e58-11e3-a23f-22000a91e9a7-large.jpg */,
+				8CD56802193EAB6F00C90559 /* Folders-Videos-Folder-icon1.png */,
+				8CD56803193EAB6F00C90559 /* Folders-Videos-icon.png */,
+				8CD56804193EAB6F00C90559 /* GlitterBckgrnd1.jpg */,
+				8CD56805193EAB6F00C90559 /* hollywood_lights__by_LYDSdestroyed.jpg */,
+				8CD56806193EAB6F00C90559 /* HollywoodLights1.jpg */,
+				8CD56807193EAB6F00C90559 /* HollywoodLights1.png */,
+				8CD56808193EAB6F00C90559 /* LED-stadium-lights-1.jpg */,
+				8CD56809193EAB6F00C90559 /* Plaza-marquee-lights1.jpg */,
+				8CD5680A193EAB6F00C90559 /* RnB-IconOpt1.png */,
+				8CD5680B193EAB6F00C90559 /* rnb-live-weds-sunset-club.jpg */,
+				8CD5680C193EAB6F00C90559 /* rnblive-Rainbow.jpg */,
+				8CD5680D193EAB6F00C90559 /* Rope_Fence-128.png */,
+				8CD5680E193EAB6F00C90559 /* Rope_Fence-128.psd */,
+				8CD5680F193EAB6F00C90559 /* Rope_Fence-129.png */,
+				8CD56810193EAB6F00C90559 /* Sparkles.jpg */,
+				8CD56811193EAB6F00C90559 /* Sparkles2.jpg */,
+				8CD56812193EAB6F00C90559 /* StageLights1.jpg */,
+				8CD56813193EAB6F00C90559 /* Theatrical-marquee-golden1.jpg */,
+				8CD56814193EAB6F00C90559 /* twitter-bar-970x360.jpg */,
+				8CD56815193EAB6F00C90559 /* twitter-icon-1 copy.png */,
+				8CD56816193EAB6F00C90559 /* VegasShow-sign1.jpg */,
+				8CD56817193EAB6F00C90559 /* white-marquee-lights-golden-background1.jpg */,
+			);
+			name = "RnB Live - Layouts, Pics, Icons";
+			path = "../../../Desktop/RnB Live - Layouts, Pics, Icons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CCA6BD118BE9AAC00828814 /* R&BLive-2014 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCA6C0418BE9AAC00828814 /* Build configuration list for PBXNativeTarget "R&BLive-2014" */;
+			buildPhases = (
+				8CCA6BCE18BE9AAC00828814 /* Sources */,
+				8CCA6BCF18BE9AAC00828814 /* Frameworks */,
+				8CCA6BD018BE9AAC00828814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "R&BLive-2014";
+			productName = "R&BLive-2014";
+			productReference = 8CCA6BD218BE9AAC00828814 /* R&BLive-2014.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CCA6BF218BE9AAC00828814 /* R&BLive-2014Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCA6C0718BE9AAC00828814 /* Build configuration list for PBXNativeTarget "R&BLive-2014Tests" */;
+			buildPhases = (
+				8CCA6BEF18BE9AAC00828814 /* Sources */,
+				8CCA6BF018BE9AAC00828814 /* Frameworks */,
+				8CCA6BF118BE9AAC00828814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CCA6BF918BE9AAC00828814 /* PBXTargetDependency */,
+			);
+			name = "R&BLive-2014Tests";
+			productName = "R&BLive-2014Tests";
+			productReference = 8CCA6BF318BE9AAC00828814 /* R&BLive-2014Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CCA6BCA18BE9AAC00828814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = New;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "GERNiE B.";
+				TargetAttributes = {
+					8CCA6BF218BE9AAC00828814 = {
+						TestTargetID = 8CCA6BD118BE9AAC00828814;
+					};
+				};
+			};
+			buildConfigurationList = 8CCA6BCD18BE9AAC00828814 /* Build configuration list for PBXProject "R&BLive-2014" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CCA6BC918BE9AAC00828814;
+			productRefGroup = 8CCA6BD318BE9AAC00828814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CCA6BD118BE9AAC00828814 /* R&BLive-2014 */,
+				8CCA6BF218BE9AAC00828814 /* R&BLive-2014Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CCA6BD018BE9AAC00828814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD5683B193EAB6F00C90559 /* StageLights1.jpg in Resources */,
+				8CD56840193EAB6F00C90559 /* white-marquee-lights-golden-background1.jpg in Resources */,
+				8CCA6D2418BE9DD400828814 /* R&B Live - Home (no buttons).png in Resources */,
+				8C8DF89118C3BB6800E930A3 /* RnBLive-Logo(white).png in Resources */,
+				8CD56822193EAB6F00C90559 /* 5bc717ee-a2b7-edda-ff08-d312bba94da4-small.jpg in Resources */,
+				8CD56833193EAB6F00C90559 /* RnB-IconOpt1.png in Resources */,
+				8CCA6D1918BE9DD400828814 /* Feed-Rectangle-1.png in Resources */,
+				8CCA6D5718BE9E1500828814 /* urbanlook1.jpg in Resources */,
+				8CD56836193EAB6F00C90559 /* Rope_Fence-128.png in Resources */,
+				8CCA6BEE18BE9AAC00828814 /* Images.xcassets in Resources */,
+				8CD5682D193EAB6F00C90559 /* GlitterBckgrnd1.jpg in Resources */,
+				8CCA6D2E18BE9DD400828814 /* R&B-Live---Home-(PNG-Layers)_0001s_0008_Rounded-Rectangle-1.png in Resources */,
+				8CD5681F193EAB6F00C90559 /* 46-Chats-icon.png in Resources */,
+				8CD5681B193EAB6F00C90559 /* 1391454521_Hollywood_smile copy.png in Resources */,
+				8CCA6D2218BE9DD400828814 /* R&B Live - Home (no buttons) LITTLE.png in Resources */,
+				8CCA6BE018BE9AAC00828814 /* InfoPlist.strings in Resources */,
+				8CCA6D5618BE9E1500828814 /* rsz_1rsz_1urbanlook1.jpg in Resources */,
+				8CD56831193EAB6F00C90559 /* LED-stadium-lights-1.jpg in Resources */,
+				8CCA6D4918BE9DD400828814 /* RSVP-Button.png in Resources */,
+				8CCA6D5918BE9E1500828814 /* sk1.JPG in Resources */,
+				8CCA6D1B18BE9DD400828814 /* Mailing-Button.png in Resources */,
+				8CD5681C193EAB6F00C90559 /* 1392248389_My_Videos copy.png in Resources */,
+				8CD56837193EAB6F00C90559 /* Rope_Fence-128.psd in Resources */,
+				8CD5683C193EAB6F00C90559 /* Theatrical-marquee-golden1.jpg in Resources */,
+				8CD56829193EAB6F00C90559 /* calendar-icon-512x512.png in Resources */,
+				8CD5682B193EAB6F00C90559 /* Folders-Videos-Folder-icon1.png in Resources */,
+				8CD56824193EAB6F00C90559 /* Banner1.jpg in Resources */,
+				8CD5683D193EAB6F00C90559 /* twitter-bar-970x360.jpg in Resources */,
+				8CD5683E193EAB6F00C90559 /* twitter-icon-1 copy.png in Resources */,
+				8CD5681E193EAB6F00C90559 /* 3819092871_24a6e929be_z.jpg in Resources */,
+				8CD5681D193EAB6F00C90559 /* 1392248389_My_Videos.png in Resources */,
+				8CD56819193EAB6F00C90559 /* (BLURR)hollywood_lights__by_LYDSdestroyed.png in Resources */,
+				8CD56827193EAB6F00C90559 /* Blue-Concert-PartyLights1.jpg in Resources */,
+				8C8DF88918C3B29B00E930A3 /* NewHomeButton_0001s_0004_1393801267_mail.png in Resources */,
+				8CD56825193EAB6F00C90559 /* Banner2.jpg in Resources */,
+				8CCA6D5518BE9E1500828814 /* rsz_keaira.png in Resources */,
+				8CD56821193EAB6F00C90559 /* 5398145-307380-gold-abstract-light-background.jpg in Resources */,
+				8CCA6D4B18BE9DD400828814 /* Video-Button.png in Resources */,
+				8C8DF88418C3B29B00E930A3 /* BlankCircle.png in Resources */,
+				8CD56830193EAB6F00C90559 /* HollywoodLights1.png in Resources */,
+				8C8DF88618C3B29B00E930A3 /* NewHomeButton_0001s_0001_Twitter-icon.png in Resources */,
+				8CD56832193EAB6F00C90559 /* Plaza-marquee-lights1.jpg in Resources */,
+				8CCA6D2118BE9DD400828814 /* Polygon-5.png in Resources */,
+				8C8DF88F18C3B9F200E930A3 /* HollywoodFont(whiteFit)_0000_HollyWood.png in Resources */,
+				8CA99E1E18C7F3C900FC9A0F /* Transparent-Button_0000s_0000_Base.png in Resources */,
+				8C8DF88B18C3B29B00E930A3 /* NewHomeButton_0001s_0006_Camera.png in Resources */,
+				8CD5682C193EAB6F00C90559 /* Folders-Videos-icon.png in Resources */,
+				8CCA6D4818BE9DD400828814 /* RedPolygon-2.png in Resources */,
+				8CD56834193EAB6F00C90559 /* rnb-live-weds-sunset-club.jpg in Resources */,
+				8CD5681A193EAB6F00C90559 /* 1391451527_contakt.png in Resources */,
+				8CCA6D2D18BE9DD400828814 /* R&B-Live---Home-(PNG-Layers)_0001s_0007_Rounded-Rectangle-2.png in Resources */,
+				8CCA6D5818BE9E1500828814 /* MV5BMjE5OTQ5MjE0M15BMl5BanBnXkFtZTcwMjQxMDU5OA@@._V1_SY317_CR20,0,214,317_.jpg in Resources */,
+				8C8DF88818C3B29B00E930A3 /* NewHomeButton_0001s_0003_calendar-icon-512x512.png in Resources */,
+				8C74500118C8069700E490DC /* RnB_Curtains.png in Resources */,
+				8C8DF88518C3B29B00E930A3 /* NewHomeButton_0001s_0000_1393800249_Videos_Folder.png in Resources */,
+				8CD5682E193EAB6F00C90559 /* hollywood_lights__by_LYDSdestroyed.jpg in Resources */,
+				8CCA6D2318BE9DD400828814 /* R&B Live - Home (no buttons) SIZED.png in Resources */,
+				8CCA6D4A18BE9DD400828814 /* Tweet-Button.png in Resources */,
+				8CCA6D5418BE9E1500828814 /* rsz_mv5bmje5otq5mje0m15bml5banbnxkftztcwmjqxmdu5oa_v1_sy317_cr200214317_.jpg in Resources */,
+				8CA99E1918C7E11D00FC9A0F /* Purple_background.png in Resources */,
+				8CCA6D5318BE9E1500828814 /* rsz_sk1.jpg in Resources */,
+				8C582AB118C922C800A6B2A3 /* Arrow-Button_0000_1394162758_519702-210_CircledBorderArrowRight.png in Resources */,
+				8CCA6BE918BE9AAC00828814 /* Main.storyboard in Resources */,
+				8C744FFF18C8049800E490DC /* blue_Background.png in Resources */,
+				8CD56823193EAB6F00C90559 /* background-lights.jpg in Resources */,
+				8CD56826193EAB6F00C90559 /* black_gold_glitter_typography_wedding_rsvp_cards-r2b79a1c9e9944dbda52797bd2fe94e35_imtq3_8byvr_512.jpg in Resources */,
+				8CCA6D1618BE9DD400828814 /* Black-Layer.png in Resources */,
+				8CD5683A193EAB6F00C90559 /* Sparkles2.jpg in Resources */,
+				8CD5682A193EAB6F00C90559 /* f27449bc-1e58-11e3-a23f-22000a91e9a7-large.jpg in Resources */,
+				8C8DF88A18C3B29B00E930A3 /* NewHomeButton_0001s_0005_RSVP-Button.png in Resources */,
+				8CD56838193EAB6F00C90559 /* Rope_Fence-129.png in Resources */,
+				8CCA6D1D18BE9DD400828814 /* Photo-Button.png in Resources */,
+				8CD56828193EAB6F00C90559 /* brookvalentineflyer_DLsList.png in Resources */,
+				8CD5682F193EAB6F00C90559 /* HollywoodLights1.jpg in Resources */,
+				8CD56835193EAB6F00C90559 /* rnblive-Rainbow.jpg in Resources */,
+				8CCA6D4618BE9DD400828814 /* R&B-LiveBckgrnd1.png in Resources */,
+				8CD56818193EAB6F00C90559 /* (BLURR)goldbackground.png in Resources */,
+				8C8DF88718C3B29B00E930A3 /* NewHomeButton_0001s_0002_Rope_Fence-129.png in Resources */,
+				8CD56839193EAB6F00C90559 /* Sparkles.jpg in Resources */,
+				8CD56820193EAB6F00C90559 /* 46db88b0-d59b-4ff5-985b-eb9e4be003e9.jpg in Resources */,
+				8CD5683F193EAB6F00C90559 /* VegasShow-sign1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCA6BF118BE9AAC00828814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCA6BFF18BE9AAC00828814 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CCA6BCE18BE9AAC00828814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8DF89718C3C3D100E930A3 /* VideosViewController.m in Sources */,
+				8CCA6BEC18BE9AAC00828814 /* NewViewController.m in Sources */,
+				8CA99E1C18C7E49200FC9A0F /* MailingViewController.m in Sources */,
+				8CF1A47118C0BE0700783B07 /* WebViewController.m in Sources */,
+				8CF1A47718C0F7B200783B07 /* SharePhotosViewController.m in Sources */,
+				8CA99E2118C7F9EA00FC9A0F /* ReserveViewController.m in Sources */,
+				8C1DA98218C3D12E00F2166C /* GuestViewController.m in Sources */,
+				8CCA6BE218BE9AAC00828814 /* main.m in Sources */,
+				8CCA6BE618BE9AAC00828814 /* NewAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCA6BEF18BE9AAC00828814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCA6C0118BE9AAC00828814 /* R_BLive_2014Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CCA6BF918BE9AAC00828814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CCA6BD118BE9AAC00828814 /* R&BLive-2014 */;
+			targetProxy = 8CCA6BF818BE9AAC00828814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CCA6BDE18BE9AAC00828814 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CCA6BDF18BE9AAC00828814 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CCA6BE718BE9AAC00828814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CCA6BE818BE9AAC00828814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CCA6BFD18BE9AAC00828814 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CCA6BFE18BE9AAC00828814 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CCA6C0218BE9AAC00828814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CCA6C0318BE9AAC00828814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CCA6C0518BE9AAC00828814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "R&BLive-2014/R&BLive-2014-Prefix.pch";
+				INFOPLIST_FILE = "R&BLive-2014/R&BLive-2014-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CCA6C0618BE9AAC00828814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "R&BLive-2014/R&BLive-2014-Prefix.pch";
+				INFOPLIST_FILE = "R&BLive-2014/R&BLive-2014-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8CCA6C0818BE9AAC00828814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/R&BLive-2014.app/R&BLive-2014";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "R&BLive-2014/R&BLive-2014-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "R&BLive-2014Tests/R&BLive-2014Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8CCA6C0918BE9AAC00828814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/R&BLive-2014.app/R&BLive-2014";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "R&BLive-2014/R&BLive-2014-Prefix.pch";
+				INFOPLIST_FILE = "R&BLive-2014Tests/R&BLive-2014Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CCA6BCD18BE9AAC00828814 /* Build configuration list for PBXProject "R&BLive-2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCA6C0218BE9AAC00828814 /* Debug */,
+				8CCA6C0318BE9AAC00828814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCA6C0418BE9AAC00828814 /* Build configuration list for PBXNativeTarget "R&BLive-2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCA6C0518BE9AAC00828814 /* Debug */,
+				8CCA6C0618BE9AAC00828814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCA6C0718BE9AAC00828814 /* Build configuration list for PBXNativeTarget "R&BLive-2014Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCA6C0818BE9AAC00828814 /* Debug */,
+				8CCA6C0918BE9AAC00828814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CCA6BCA18BE9AAC00828814 /* Project object */;
+}
